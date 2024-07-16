@@ -17,7 +17,11 @@ $(function(){
         adaptiveHeight:true,
     })//slick
 
-    
+    // 팝업
+
+    $(".close").click(function(){
+        $(".popup").hide();
+    })//click
 
 
 })//j end
